@@ -1,4 +1,4 @@
-export const products = [
+export const products: Product[] = [
   {
     id: 1,
     name: 'Phone XL',
@@ -19,6 +19,12 @@ export const products = [
   }
 ];
 
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  description: string;
+};
 
 /*
 Copyright Google LLC. All Rights Reserved.
