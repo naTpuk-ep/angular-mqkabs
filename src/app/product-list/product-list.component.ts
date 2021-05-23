@@ -15,7 +15,8 @@ export class ProductListComponent {
   }
 
   onNotify(name: string) {
-    window.alert('You will be notified when the product goes on sale ' + name);
+    const str = 'You will be notified when the product goes on sale ' + name;
+    window.alert(str);
   }
 }
 
